@@ -1,25 +1,15 @@
-// all the necesaary variables which will be used during the execution!
-
-
 const POWER = "POWER(",
     FACTORIAL = "FACTORIAL("
 
-
 // some variables
-
 const OPERATORS = ["+", "-", "*", "/"]
-
-
 
 let data = {
     operation: [],
     formula: [],
 }
-
 let ans = 0
-
 // all the calculator buttons!! all 40 buttons !
-
 let calculator_buttons = [{
     name: "rad",
     symbol: "Rad",
